@@ -1,0 +1,12 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: 'FranklinGothic-Book';
+    src: url('fonts/FranklinGothicBookRegular.eot');
+    src: url('fonts/FranklinGothicBookRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FranklinGothicBookRegular.woff2') format('woff2'),
+         url('fonts/FranklinGothicBookRegular.woff') format('woff'),
+         url('fonts/FranklinGothicBookRegular.ttf') format('truetype'),
+         url('fonts/FranklinGothicBookRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
