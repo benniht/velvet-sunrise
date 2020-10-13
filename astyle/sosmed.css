@@ -1,0 +1,12 @@
+@import url(../dist/css/normalize.css);
+@import url(../dist/css/bs.min.css);
+@import url(../dist/css/bht_css.css);
+
+#wpwrap{
+    background-image: url(../himages/sosmed.png);
+    background-repeat: repeat;
+}
+
+td{
+    border:0;
+}
