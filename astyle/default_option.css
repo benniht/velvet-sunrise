@@ -1,0 +1,8 @@
+@import url(../dist/css/normalize.css);
+@import url(../dist/css/w.css);
+@import url(../dist/css/bht_css.css);
+
+#wpwrap{
+    background-image: url(../himages/nama_setting.png);
+    background-repeat: repeat;
+}

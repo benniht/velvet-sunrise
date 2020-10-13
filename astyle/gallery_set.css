@@ -1,0 +1,138 @@
+@import url(../dist/css/normalize.css);
+@import url(../dist/css/bs.min.css);
+@import url(../dist/css/bht_css.css);
+
+#wpwrap{
+    background-image: url(../himages/bg-slider-setting.png);
+    background-repeat: repeat;
+}
+
+#slider-setting{
+    margin-top:30px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+/*Form 1*/
+#slider-setting td {
+    border: 0;
+    padding: 5px;
+    *margin:  0 !important;
+    height: auto;
+    text-align: left;
+}
+
+#slider-setting tr td:first-child {
+    text-align: right !important;
+}
+
+#slider-setting input[type="text"]{
+    margin-bottom: 0px;
+}
+
+#slider-setting .desc-text{
+    margin-top: 0;
+}
+
+
+
+#slider-setting .btn-browser{
+    *margin-top: -15px !important;
+}
+
+#slider-setting .img-link{
+    margin-top: 5px;
+}
+
+
+/*Form 2*/
+#slider-setting #form-sort{
+    width: 600px;
+    margin-top: 50px;
+}
+
+#slider-setting .sort-wrapper {
+    width: 570px;
+}
+
+#slider-setting .portlet{
+    border: 1px solid #7a7a7a;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+#slider-setting .portlet-header {
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#471140;
+    
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    position: relative;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #e5fbdb;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#e5fbdb), to(#b4c6ac));
+    background: -webkit-linear-gradient(#e5fbdb, #b4c6ac);
+    background: -moz-linear-gradient(#e5fbdb, #b4c6ac);
+    background: -ms-linear-gradient(#e5fbdb, #b4c6ac);
+    background: -o-linear-gradient(#e5fbdb, #b4c6ac);
+    background: linear-gradient(#e5fbdb, #b4c6ac);
+    -pie-background: linear-gradient(#e5fbdb, #b4c6ac);
+    
+}
+
+#slider-setting .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+
+#slider-setting .portlet-content {
+    padding: 10px;
+}
+
+#slider-setting .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
+
+#slider-setting .btn-save{
+    margin: 10px 0;
+}
+
+#slider-setting #slider-option{
+    margin-top: 50px;
+}
+
+#slider-setting input[type="text"]{
+    font-weight: normal;
+}
+
+#slider-setting textarea{
+    font-weight: normal;
+}         
+
+div.growlUI { background: url(http://malsup.com/jquery/block/check48.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left;
+}  
+div.growlUI h1{
+    font-size:medium;
+    font-weight:bold;
+    color:yellow;
+}
+div.growlUI h2{
+    font-size:large;
+    font-weight:bold;
+}
+
+#description,#link,#publish{
+    display:none;
+    visibility: hidden;
+}
