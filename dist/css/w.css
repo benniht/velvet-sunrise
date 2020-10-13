@@ -1,0 +1,475 @@
+#wp_table input[type="text"], #wp_table textarea{
+    color: #533a04 !important;
+}
+
+#wp_table td{
+    border: 0;
+    padding: 3px;
+}
+
+#wp_table .btn {
+  display: inline-block;
+  padding: 4px 12px;
+  *padding: 2px 12px !important;
+  margin-bottom: 0;
+  margin-top: -3px;
+  margin-top: 3px \9;
+  *margin-top: -14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#wp_table .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+#wp_table .btn:hover,
+#wp_table .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+#wp_table .btn:active,
+#wp_table .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+#wp_table .btn.disabled,
+#wp_table .btn[disabled],
+#wp_table fieldset[disabled] .btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#wp_table .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+#wp_table .btn-default:hover,
+#wp_table .btn-default:focus,
+#wp_table .btn-default:active,
+#wp_table .btn-default.active,
+#wp_table .open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+#wp_table .btn-default:active,
+#wp_table .btn-default.active,
+#wp_table .open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+#wp_table .btn-default.disabled,
+#wp_table .btn-default[disabled],
+#wp_table fieldset[disabled] .btn-default,
+#wp_table .btn-default.disabled:hover,
+#wp_table.btn-default[disabled]:hover,
+#wp_table fieldset[disabled] .btn-default:hover,
+#wp_table .btn-default.disabled:focus,
+#wp_table .btn-default[disabled]:focus,
+#wp_table fieldset[disabled] .btn-default:focus,
+#wp_table .btn-default.disabled:active,
+#wp_table .btn-default[disabled]:active,
+#wp_table fieldset[disabled] .btn-default:active,
+#wp_table .btn-default.disabled.active,
+#wp_table .btn-default[disabled].active,
+#wp_table fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+#wp_table .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+#wp_table .btn-primary:hover,
+#wp_table .btn-primary:focus,
+#wp_table .btn-primary:active,
+#wp_table .btn-primary.active,
+#wp_table .open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+#wp_table .btn-primary:active,
+#wp_table .btn-primary.active,
+#wp_table .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+#wp_table .btn-primary.disabled,
+#wp_table .btn-primary[disabled],
+#wp_table fieldset[disabled] .btn-primary,
+#wp_table .btn-primary.disabled:hover,
+#wp_table .btn-primary[disabled]:hover,
+#wp_table fieldset[disabled] .btn-primary:hover,
+#wp_table .btn-primary.disabled:focus,
+#wp_table .btn-primary[disabled]:focus,
+#wp_table fieldset[disabled] .btn-primary:focus,
+#wp_table .btn-primary.disabled:active,
+#wp_table .btn-primary[disabled]:active,
+#wp_table fieldset[disabled] .btn-primary:active,
+#wp_table .btn-primary.disabled.active,
+#wp_table .btn-primary[disabled].active,
+#wp_table fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+#wp_table .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+#wp_table.btn-warning:hover,
+#wp_table.btn-warning:focus,
+#wp_table.btn-warning:active,
+#wp_table.btn-warning.active,
+#wp_table.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+
+#wp_table.btn-warning:active,
+#wp_table .btn-warning.active,
+#wp_table .open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+
+#wp_table .btn-warning.disabled,
+#wp_table .btn-warning[disabled],
+#wp_table fieldset[disabled] .btn-warning,
+#wp_table .btn-warning.disabled:hover,
+#wp_table .btn-warning[disabled]:hover,
+#wp_table fieldset[disabled] .btn-warning:hover,
+#wp_table .btn-warning.disabled:focus,
+#wp_table .btn-warning[disabled]:focus,
+#wp_table fieldset[disabled] .btn-warning:focus,
+#wp_table .btn-warning.disabled:active,
+#wp_table .btn-warning[disabled]:active,
+#wp_table fieldset[disabled] .btn-warning:active,
+#wp_table .btn-warning.disabled.active,
+#wp_table .btn-warning[disabled].active,
+#wp_table fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+#wp_table .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+#wp_table .btn-danger:hover,
+#wp_table .btn-danger:focus,
+#wp_table .btn-danger:active,
+#wp_table .btn-danger.active,
+#wp_table .open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+
+#wp_table .btn-danger:active,
+#wp_table .btn-danger.active,
+#wp_table .open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+
+#wp_table .btn-danger.disabled,
+#wp_table .btn-danger[disabled],
+#wp_table fieldset[disabled] .btn-danger,
+#wp_table .btn-danger.disabled:hover,
+#wp_table .btn-danger[disabled]:hover,
+#wp_table fieldset[disabled] .btn-danger:hover,
+#wp_table .btn-danger.disabled:focus,
+#wp_table .btn-danger[disabled]:focus,
+#wp_table fieldset[disabled] .btn-danger:focus,
+#wp_table .btn-danger.disabled:active,
+#wp_table .btn-danger[disabled]:active,
+#wp_table fieldset[disabled] .btn-danger:active,
+#wp_table .btn-danger.disabled.active,
+#wp_table .btn-danger[disabled].active,
+#wp_table fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+#wp_table .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+#wp_table .btn-success:hover,
+#wp_table .btn-success:focus,
+#wp_table .btn-success:active,
+#wp_table .btn-success.active,
+#wp_table .open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+#wp_table .btn-success:active,
+#wp_table .btn-success.active,
+#wp_table .open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+#wp_table .btn-success.disabled,
+#wp_table .btn-success[disabled],
+#wp_table fieldset[disabled] .btn-success,
+#wp_table .btn-success.disabled:hover,
+#wp_table .btn-success[disabled]:hover,
+#wp_table fieldset[disabled] .btn-success:hover,
+#wp_table .btn-success.disabled:focus,
+#wp_table .btn-success[disabled]:focus,
+#wp_table fieldset[disabled] .btn-success:focus,
+#wp_table .btn-success.disabled:active,
+#wp_table .btn-success[disabled]:active,
+#wp_table fieldset[disabled] .btn-success:active,
+#wp_table .btn-success.disabled.active,
+#wp_table .btn-success[disabled].active,
+#wp_table fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+#wp_table .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+#wp_table .btn-info:hover,
+#wp_table .btn-info:focus,
+#wp_table .btn-info:active,
+#wp_table .btn-info.active,
+#wp_table .open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+
+#wp_table .btn-info:active,
+#wp_table .btn-info.active,
+#wp_table .open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+
+#wp_table .btn-info.disabled,
+#wp_table .btn-info[disabled],
+#wp_table fieldset[disabled] .btn-info,
+#wp_table .btn-info.disabled:hover,
+#wp_table .btn-info[disabled]:hover,
+#wp_table fieldset[disabled] .btn-info:hover,
+#wp_table .btn-info.disabled:focus,
+#wp_table .btn-info[disabled]:focus,
+#wp_table fieldset[disabled] .btn-info:focus,
+#wp_table .btn-info.disabled:active,
+#wp_table .btn-info[disabled]:active,
+#wp_table fieldset[disabled] .btn-info:active,
+#wp_table .btn-info.disabled.active,
+#wp_table .btn-info[disabled].active,
+#wp_table fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+#wp_table .btn-link {
+  font-weight: normal;
+  color: #428bca;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+#wp_table .btn-link,
+#wp_table .btn-link:active,
+#wp_table .btn-link[disabled],
+#wp_table fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#wp_table .btn-link,
+#wp_table .btn-link:hover,
+#wp_table .btn-link:focus,
+#wp_table .btn-link:active {
+  border-color: transparent;
+}
+
+#wp_table .btn-link:hover,
+#wp_table .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+#wp_table .btn-link[disabled]:hover,
+#wp_table fieldset[disabled] .btn-link:hover,
+#wp_table .btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+.h2_sub_title{
+    border-bottom: 1px solid black;
+    display:inline;
+}
+
+#wp_table .radio,
+#wp_table .checkbox {
+  display: block;
+  min-height: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+#wp_table .radio label,
+#wp_table .checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+#wp_table .radio input[type="radio"],
+#wp_table .radio-inline input[type="radio"],
+#wp_table .checkbox input[type="checkbox"],
+#wp_table .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+
+#wp_table .radio + .radio,
+#wp_table .checkbox + .checkbox {
+  margin-top: -5px;
+}
+
+#wp_table .radio-inline,
+#wp_table .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#wp_table .radio-inline + .radio-inline,
+#wp_table .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+#wp_table input[type="radio"][disabled],
+#wp_table input[type="checkbox"][disabled],
+#wp_table .radio[disabled],
+#wp_table .radio-inline[disabled],
+#wp_table .checkbox[disabled],
+#wp_table .checkbox-inline[disabled],
+#wp_table fieldset[disabled] input[type="radio"],
+#wp_table fieldset[disabled] input[type="checkbox"],
+#wp_table fieldset[disabled] .radio,
+#wp_table fieldset[disabled] .radio-inline,
+#wp_table fieldset[disabled] .checkbox,
+#wp_table fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+
+#wp_table .checkbox input[type="checkbox"] , #wp_table  .radio input[type="radio"]{
+    border: 0;
+    margin-top: 0;
+    margin-top: 3px \9;
+    color: #533a04;
+}
+
+#wp_table .checkbox-inline input[type="checkbox"], #wp_table  .radio-inline input[type="radio"]{
+    border: 0;
+    margin-top: 1px;
+    margin-top: 3px \9;
+    color: #533a04;
+}
+
+#wp_table .checkbox , #wp_table  .radio{
+    border: 0;
+    margin-top: 0;
+    margin-top: 3px \9;
+    color: #533a04;
+}
+
+#wp_table .checkbox-inline , #wp_table  .radio-inline{
+    border: 0;
+    margin-top: 2px;
+    margin-top: 3px \9;
+    color: #533a04;
+}
+
+#wp_table tr td:first-child{
+    text-align: right;
+    color: #110797;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#wp_table .radio_text{
+    padding-top: 5px;
+}
+
+#wp_table .checkbox_text{
+    padding-top: 6px;
+}
+
+.wp_table_widget{
+    margin-bottom: 20px;
+}
+
+.wp_table_widget textarea{
+    width: 250px;
+    *width: 237px;
+}
+
+#wp_table .browse_link{
+    width: 169px;
+    *width: 129px;
+}
+
+#wp_table .submit{
+    text-align: center !important;
+}
+
+#wp_table .preview_img_multi{
+    height: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
